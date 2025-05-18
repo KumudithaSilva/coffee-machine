@@ -83,6 +83,7 @@ def make_coffe(userchoices):
     ingredients = MENU[userchoices]['ingredients']
     for item in ingredients:
         resources[item] -= ingredients[item]
+    print(f"Here is your {userchoices}. Enjoy!\n")
 
 # TODO : 3. Prompt user by asking “ What would you like? (espresso/latte/cappuccino):
 # TODO : 4. Turn off the Coffee Machine by entering “ off ” to the prompt.
